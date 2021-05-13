@@ -46,4 +46,4 @@ public class TestMain {
 ```
 #### 说明：  
 1. 本工件只能连接TCP服务端，不能用于连接HTTP服务端。  
-2. TcpClient的getMessage方法用于阻塞同步获取CP服务端响应的数据，若需要异步获取数据则可以调动重载的getMessage(int msgNum)方法。  
+2. TcpClient的getMessage方法用于阻塞同步获取TCP服务端响应回来的数据，若需要异步获取数据则可以调动重载的getMessage(int msgNum)方法。  
